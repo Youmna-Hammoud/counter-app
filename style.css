@@ -1,0 +1,109 @@
+@font-face {
+    font-family: firstFont;
+    src: url(fonts/ARLRDBD.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'firstFont';
+    text-transform: capitalize;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        to right top,
+        #65dfc9, 
+        #6cbbeb
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    height: 400px;
+    width: 400px;
+    border-radius: 2rem;
+    margin: 10px;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.3)
+    );
+    backdrop-filter: blur(2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #426696;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    font-size: large;
+}
+
+button {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    color: white;
+    border: transparent;
+    font-size: 1.5rem;
+}
+
+#increment-btn {
+    background: linear-gradient(
+        to left bottom,
+        rgba(66, 102, 150, 0.7),
+        rgba(66, 102, 150, 0.5)
+    );
+}
+
+#save-btn {
+    background: linear-gradient(
+        to right bottom, 
+        rgba(101, 142, 198, 0.7),
+        rgba(101, 142, 198, 0.5)
+    );
+}
+
+#reset-btn {
+    background: linear-gradient(
+        to left bottom, 
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.5)
+    );
+    color: rgba(101, 142, 198, 0.9);
+    width: 100px;
+}
+
+#reset-btn:hover {
+    background: rgb(240, 240, 240);
+    box-shadow: 5px 5px 20px #999;
+}
+
+#increment-btn:hover {
+    background: rgba(66, 102, 150, 0.9);
+    box-shadow: 5px 5px 20px #999;
+}
+
+#save-btn:hover {
+    background: rgba(101, 142, 198, 0.9);
+    box-shadow: 5px 5px 20px #999;
+}
