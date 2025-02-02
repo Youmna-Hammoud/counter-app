@@ -27,7 +27,7 @@ The app is structured as follows:
 - `index.html`: Contains the HTML structure.
 - `styles.css`: Contains the CSS styles.
 - `script.js`: Contains the JavaScript logic.
-- `font`: Contains the fonts used.
+- `fonts`: Contains the fonts used.
 
 ## Installation
 
